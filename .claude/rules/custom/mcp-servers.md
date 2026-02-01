@@ -53,13 +53,13 @@ This project has custom MCP servers configured in `mcp_servers.json`. Access the
 mcp-cli github/get_me '{}'
 
 # List issues
-mcp-cli github/list_issues '{"owner": "BusinessPlus-Community", "repo": "bpc-pycdd"}'
+mcp-cli github/list_issues '{"owner": "BusinessPlus-Community", "repo": ".github"}'
 
 # Create a branch
-mcp-cli github/create_branch '{"owner": "BusinessPlus-Community", "repo": "bpc-pycdd", "branch": "feature/new-feature"}'
+mcp-cli github/create_branch '{"owner": "BusinessPlus-Community", "repo": ".github", "branch": "feature/new-feature"}'
 
 # Get file contents
-mcp-cli github/get_file_contents '{"owner": "BusinessPlus-Community", "repo": "bpc-pycdd", "path": "README.md"}'
+mcp-cli github/get_file_contents '{"owner": "BusinessPlus-Community", "repo": ".github", "path": "README.md"}'
 
 # Search code
 mcp-cli github/search_code '{"query": "def process org:BusinessPlus-Community"}'

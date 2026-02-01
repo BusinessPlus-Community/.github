@@ -1,45 +1,42 @@
-# Project: bpc-pycdd
+# Project: bpc-dot-github
 
 **Last Updated:** 2026-02-01
 
 ## Overview
 
-Python library providing helper functions for CDD report generation. Target users are CDD administrators (not Python developers). Currently a skeleton awaiting vendor Python API specifications.
+Organization profile repository (`.github`) for BusinessPlus Community. Contains community health files, GitHub templates, and shared Claude configuration that applies across all organization repositories.
 
-## Technology Stack
+## Purpose
 
-- **Language:** Python 3.12
-- **Package Manager:** uv
-- **Type Checker:** basedpyright (strict mode)
-- **Linter/Formatter:** ruff
-- **Testing:** pytest with pytest-cov
+- **Organization profile** - README displayed on GitHub org page
+- **Community health files** - CODE_OF_CONDUCT, CONTRIBUTING, SECURITY, SUPPORT
+- **GitHub templates** - Issue templates, PR template, FUNDING.yml
+- **Claude configuration** - Rules and skills shared across org repos
 
 ## Directory Structure
 
 ```
-src/bpc_pycdd/     # Source code (typed)
-tests/             # Test files mirror source structure
+.claude/           # Claude Code configuration (rules, skills, commands)
+.github/           # GitHub templates (issues, PRs, funding)
+docs/              # Member documentation and plans
+profile/           # Organization profile README
+context/           # Reference materials (screenshots, docs)
 ```
 
-## Development Commands
+## Key Files
 
-```bash
-# Install
-uv pip install -e ".[dev]"
+- `README.md` / `profile/README.md` - Organization profile (kept in sync)
+- `CODE_OF_CONDUCT.md` - Contributor Covenant 3.0
+- `CONTRIBUTING.md` - Contribution guidelines
+- `SECURITY.md` - Vulnerability reporting policy
+- `SUPPORT.md` - Support channels
 
-# Tests
-uv run pytest -q
-uv run pytest -q --cov=bpc_pycdd --cov-report=term-missing
+## Repository Type
 
-# Quality
-ruff format .
-ruff check . --fix
-uv run basedpyright src tests
-```
+This is a **documentation-only** repository with no application code. Changes are primarily Markdown edits to community files and templates.
 
-## Project-Specific Notes
+## Notes
 
-- **TDD mandatory** - Write failing test first, then implement
-- **Coverage target** - 90% minimum (configured in pyproject.toml)
-- **Audience** - CDD administrators, prioritize usability over cleverness
-- **Vendor dependency** - Architecture decisions await vendor Python API specs
+- Claude configuration here is shared across BusinessPlus Community repos
+- Python rules/skills are included for use in code repositories like bpc-pycdd
+- Always keep README.md and profile/README.md in sync
