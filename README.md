@@ -2,7 +2,9 @@
 
 ## Welcome to the BusinessPlus Community! 👋
 
-We are a collaborative group of K-12 technology professionals dedicated to sharing tools, scripts, and knowledge that enhance the management and functionality of BusinessPlus ERP/HR/PY systems.
+[![Sponsor](https://img.shields.io/badge/Sponsor-BusinessPlus%20Community-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/BusinessPlus-Community)
+
+We are a collaborative group of K-12 technology professionals dedicated to sharing tools, scripts, and knowledge that enhance the management and functionality of BusinessPlus—PowerSchool's accounting, procurement, HR, and payroll software for K-12 school districts.
 
 ### 🎯 Our Mission
 
@@ -28,7 +30,7 @@ The BusinessPlus Community serves technology staff in K-12 school districts acro
 
 ### 📚 Featured Projects
 
-- **[bp-test-env-refresh](https://github.com/businessplus-community/bp-test-env-refresh)**: Automated PowerShell script for refreshing BusinessPlus test environments
+- **[BPC.DBRefresh](https://github.com/BusinessPlus-Community/BPC.DBRefresh)**: Automated PowerShell script for refreshing BusinessPlus test environments
 - *More projects coming soon!*
 
 ### 🤲 How to Contribute
@@ -65,7 +67,18 @@ Most of our projects are released under open-source licenses to encourage sharin
 
 ---
 
-*The BusinessPlus Community is an independent, volunteer-driven initiative not affiliated with the BusinessPlus software vendor. We're just a group of dedicated professionals helping each other succeed.*
+*The BusinessPlus Community is an independent, volunteer-driven initiative not affiliated with PowerSchool. We're just a group of dedicated professionals helping each other succeed.*
+
+### 💖 Support Us
+
+If you find our tools helpful, consider [sponsoring the BusinessPlus Community](https://github.com/sponsors/BusinessPlus-Community). Your support helps us:
+
+- Maintain and improve existing tools
+- Develop new solutions for common challenges
+- Keep our documentation up to date
+- Support community infrastructure
+
+Every contribution, no matter the size, helps us continue serving K-12 technology professionals.
 
 ### 🙏 Special Thanks
 
